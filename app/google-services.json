@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "220638785369",
+    "firebase_url": "https://onlineshopapp-924df-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "onlineshopapp-924df",
+    "storage_bucket": "onlineshopapp-924df.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:220638785369:android:677739f951625a1a9ce648",
+        "android_client_info": {
+          "package_name": "vn.udn.vku.hvloan.onlineshopapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "220638785369-s2v6d2aoc00ssvipmj5c2vq8jaer0u8s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "vn.udn.vku.hvloan.onlineshopapp",
+            "certificate_hash": "6706af2c2a3baa52ad9e0c5e64064874fbbd079e"
+          }
+        },
+        {
+          "client_id": "220638785369-svi11a12p30013lptcjbmtqadf5kb5gt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAC7hapr6g2RPMpt5A4FuCUycE05Rcj2NQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "220638785369-svi11a12p30013lptcjbmtqadf5kb5gt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

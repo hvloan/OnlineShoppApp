@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_notice"
+        android:icon="@drawable/ic_notifical"
+        android:title="Notification"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_cart"
+        android:icon="@drawable/ic_cart"
+        android:title="Cart"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_mute"
+        android:checkable="false"
+        android:icon="@android:drawable/ic_lock_silent_mode"
+        android:title="Mute"
+        app:showAsAction="collapseActionView" />
+</menu>
