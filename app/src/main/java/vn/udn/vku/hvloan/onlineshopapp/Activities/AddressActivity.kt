@@ -113,7 +113,7 @@ class AddressActivity : AppCompatActivity(), AddressAdapter.SelectedAddress {
         }
 
         btnContinuePayment.setOnClickListener {
-            if (intent != null) {
+            if (intent.extras != null) {
                 getDataTransfer()
             } else {
                 val intent = Intent(this, PaymentActivity::class.java)
@@ -131,7 +131,7 @@ class AddressActivity : AppCompatActivity(), AddressAdapter.SelectedAddress {
         val productNumber: Int
         val currentTime: String
         val totalPrice: Int
-        if (intent != null) {
+        if (intent.extras != null) {
             currentDate = intent.extras?.getString("currentDate").toString()
             currentTime = intent.extras?.getString("currentTime").toString()
             productName = intent.extras?.getString("productName").toString()
